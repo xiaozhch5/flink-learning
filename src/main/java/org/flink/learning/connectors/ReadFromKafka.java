@@ -23,7 +23,7 @@ public class ReadFromKafka {
         kafkaProp.put("bootstrap.servers", "hadoop1:9092");
         kafkaProp.put("group.id", "test");
 
-        DataStream<String> dataStream =  env.addSource(new FlinkKafkaConsumer<>("flinktest", new SimpleStringSchema(), kafkaProp));
+        DataStream<String> dataStream =  env.addSource(new FlinkKafkaConsumer<>("testtest", new SimpleStringSchema(), kafkaProp).setStartFromEarliest());
         dataStream.print();
         env.execute("read from kafka");
     }
