@@ -16,12 +16,12 @@ import java.sql.Statement;
  **/
 
 public class TaxiRideSourceFromHive implements SourceFunction<TaxiFare> {
-    private String driveName = "org.apache.hive.jdbc.HiveDriver";
-    private static String url = "jdbc:hive2://hadoop2:10000/db_hive_edu";
-    private String sql = "SELECT * FROM taxifares";
 
     @Override
     public void run(SourceContext<TaxiFare> tr) throws Exception{
+        String driveName = "org.apache.hive.jdbc.HiveDriver";
+        String url = "jdbc:hive2://hadoop2:10000/db_hive_edu";
+        String sql = "SELECT * FROM taxifares";
         Class.forName(driveName);
         Connection connection = DriverManager.getConnection(url);
         Statement statement = connection.createStatement();
