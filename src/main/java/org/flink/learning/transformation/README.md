@@ -12,7 +12,7 @@ DataStream<Tuple2<Long, Long>> dataStream1 = dataStream.map(new MapFunction<Tupl
     public Tuple2<Long, Long> map(Tuple2<Long, Long> value) throws Exception {
         return new Tuple2<>(value.f0, value.f1 + 1);
     }
-})
+});
 ```
 ### flatMap [DataStream -> DataStream]
 ```java
@@ -24,7 +24,7 @@ dataStream.flatMap(new FlatMapFunction<String, String>() {
             out.collect(word);
         }
     }
-})
+});
 ```
 ### filter [DataStream -> DataStream]
 ```java
@@ -34,5 +34,5 @@ dataStream.filter(new FilterFunction<Tuple2<Long, Long>>() {
     public boolean filter(Tuple2<Long, Long> value) {
         return value.f1 > 3;
     }
-})
+});
 ```
