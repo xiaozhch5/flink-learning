@@ -23,14 +23,14 @@
     <version>3.1.1</version>
 </dependency>
 ```
-* The example of reading data from hive is related to ReadFromHive.java
+* The example of reading data from Hive is related to ReadFromHive.java
 ## flink-connector-mysql
 You Can use addSource() function or createInput() function of the StreamExecutionEnvironment.
 
 Two of the examples are listed below
 
 ### createInput() method
-* Add the flink-jdbc maven and mysql-connector maven
+* Add the flink-jdbc maven and mysql-connector java maven
 ```
 <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-jdbc -->
 <dependency>
@@ -48,4 +48,13 @@ Two of the examples are listed below
 ```
 * The example of reading data from mysql is related to ReadFromHive.java
 ### addSource() method
-* This method is like flink-connector-hive, just change the driverName and url
+* Add the mysql-connector-java maven
+```
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>5.1.47</version>
+</dependency>
+```
+* The SourceFunction is related to SourceFromMysql.java and the example of reading data from mysql is related to CalculateHotItemsNum.java in the examples package
