@@ -6,3 +6,5 @@
 * Flink-connectors are in the dir of "/src/main/java/org/flink/learning/connectors"
 
 * Some examples are in the dir of "/src/main/java/org/flink/learning/examples"
+
+* Transformations are in the dir of "/src/main/java/org/flink/learning/transformation"
