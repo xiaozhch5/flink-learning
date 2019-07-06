@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0f4311-575d-44e4-9e3c-005772fc4449" name="Default Changelist" comment="Add some transformations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/MapTransformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/FilterTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/FlapMapTransformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,22 +22,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="110">
-                <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="352">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,14 +34,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/MapTransformation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="624">
+                <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/FilterTransformation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+            <state relative-caret-position="396">
+              <caret line="18" selection-start-line="18" selection-end-line="24" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +99,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/connectors/SourceFromMysql.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/connectors/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/FlapMapTransformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/FilterTransformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/MapTransformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md" />
       </list>
     </option>
   </component>
@@ -187,6 +191,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -205,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.FilterTransformation">
     <configuration name="CalculateHotItemsNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.flink.learning.examples.CalculateHotItemsNum" />
       <module name="flink-learing" />
@@ -219,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculateItemsFromSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.flink.learning.examples.CalculateItemsFromSocket" />
+    <configuration name="FilterTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flink.learning.transformation.FilterTransformation" />
       <module name="flink-learing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.flink.learning.examples.*" />
+          <option name="PATTERN" value="org.flink.learning.transformation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFromHive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.flink.learning.connectors.ReadFromHive" />
+    <configuration name="FlapMapTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flink.learning.transformation.FlapMapTransformation" />
       <module name="flink-learing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.flink.learning.connectors.*" />
+          <option name="PATTERN" value="org.flink.learning.transformation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +250,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFromMysql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.flink.learning.connectors.ReadFromMysql" />
+    <configuration name="MapTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flink.learning.transformation.MapTransformation" />
       <module name="flink-learing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.flink.learning.connectors.*" />
+          <option name="PATTERN" value="org.flink.learning.transformation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilterTransformation" />
+        <item itemvalue="Application.MapTransformation" />
+        <item itemvalue="Application.FlapMapTransformation" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.CalculateHotItemsNum" />
-        <item itemvalue="Application.CalculateItemsFromSocket" />
-        <item itemvalue="Application.ReadFromMysql" />
-        <item itemvalue="Application.ReadFromHive" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +304,7 @@
       <workItem from="1562314599035" duration="277000" />
       <workItem from="1562315384786" duration="23429000" />
       <workItem from="1562404686539" duration="139000" />
-      <workItem from="1562406955427" duration="2508000" />
+      <workItem from="1562406955427" duration="4202000" />
     </task>
     <task id="LOCAL-00001" summary="delete some useless files">
       <created>1562233473115</created>
@@ -364,17 +369,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562397774115</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add some transformations">
+      <created>1562409480018</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562409480020</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38489000" />
+    <option name="totallyTimeSpent" value="40183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15433572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31424025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,17 +395,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960223" weight="0.3264526" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960223" visible="true" weight="0.23700306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.33027524" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.45425868" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32977098" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003978" side_tool="true" weight="0.32874617" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32874617" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32874617" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -611,16 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/examples/CalculateHotItemsNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -631,25 +633,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="110">
-            <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/FlapMapTransformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="94" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/MapTransformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+        <state relative-caret-position="506">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/FilterTransformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="624">
+            <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

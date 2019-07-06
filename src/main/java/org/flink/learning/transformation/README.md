@@ -15,3 +15,24 @@ DataStream<Tuple2<Long, Long>> dataStream1 = dataStream.map(new MapFunction<Tupl
 });
 ```
 ### flatMap [DataStream -> DataStream]
+```
+DataStream<String> dataStream = env.fromElements("hello python", "hello java", "hello scala", "hello c++");
+dataStream.flatMap(new FlatMapFunction<String, String>() {
+    @Override
+    public void flatMap(String value, Collector<String> out){
+        for(String word: value.split(" ")){
+            out.collect(word);
+        }
+    }
+})
+```
+### filter [DataStream -> DataStream]
+```java
+DataStream<Tuple2<Long, Long>> dataStream = env.fromElements(new Tuple2<>(1L, 2L), new Tuple2<>(1L, 3L), new Tuple2<>(1L, 4L), new Tuple2<>(1L, 5L));
+dataStream.filter(new FilterFunction<Tuple2<Long, Long>>() {
+    @Override
+    public boolean filter(Tuple2<Long, Long> value) {
+        return value.f1 > 3;
+    }
+})
+```
