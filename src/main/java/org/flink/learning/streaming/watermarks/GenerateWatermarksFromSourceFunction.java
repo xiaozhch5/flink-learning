@@ -1,4 +1,4 @@
-package org.flink.learning.watermarks;
+package org.flink.learning.streaming.watermarks;
 
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;

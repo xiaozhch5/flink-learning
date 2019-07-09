@@ -1,4 +1,4 @@
-package org.flink.learning.connectors;
+package org.flink.learning.streaming.connectors;
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 

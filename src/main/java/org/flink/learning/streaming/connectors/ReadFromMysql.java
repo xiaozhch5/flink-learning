@@ -1,4 +1,4 @@
-package org.flink.learning.connectors;
+package org.flink.learning.streaming.connectors;
 /**
  *@className ReadFromMysql
  *@description TODO

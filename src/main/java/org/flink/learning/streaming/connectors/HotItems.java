@@ -1,4 +1,4 @@
-package org.flink.learning.connectors;
+package org.flink.learning.streaming.connectors;
 
 import java.io.Serializable;
 

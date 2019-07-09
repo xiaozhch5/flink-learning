@@ -1,4 +1,4 @@
-package org.flink.learning.workingwithstate;
+package org.flink.learning.streaming.workingwithstate;
 
 import org.apache.flink.api.common.functions.RichFlatMapFunction;
 import org.apache.flink.api.common.state.ValueState;

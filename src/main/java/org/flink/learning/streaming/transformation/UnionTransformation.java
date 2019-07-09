@@ -1,4 +1,4 @@
-package org.flink.learning.transformation;
+package org.flink.learning.streaming.transformation;
 
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.DataStream;

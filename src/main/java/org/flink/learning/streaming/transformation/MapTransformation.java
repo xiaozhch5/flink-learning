@@ -1,4 +1,4 @@
-package org.flink.learning.transformation;
+package org.flink.learning.streaming.transformation;
 
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.tuple.Tuple2;

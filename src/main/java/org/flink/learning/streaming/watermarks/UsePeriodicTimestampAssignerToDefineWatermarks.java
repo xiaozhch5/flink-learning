@@ -1,4 +1,4 @@
-package org.flink.learning.watermarks;
+package org.flink.learning.streaming.watermarks;
 
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.tuple.Tuple2;

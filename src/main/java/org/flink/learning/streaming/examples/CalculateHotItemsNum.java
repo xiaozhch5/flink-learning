@@ -1,4 +1,4 @@
-package org.flink.learning.examples;
+package org.flink.learning.streaming.examples;
 
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
@@ -6,8 +6,8 @@ import org.apache.flink.api.java.tuple.Tuple6;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.flink.learning.connectors.HotItems;
-import org.flink.learning.connectors.SourceFromMysql;
+import org.flink.learning.streaming.connectors.HotItems;
+import org.flink.learning.streaming.connectors.SourceFromMysql;
 
 
 /**
