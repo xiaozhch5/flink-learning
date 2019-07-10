@@ -1,7 +1,7 @@
 # Flink-learning
 * This is a maven project
 
-## Flink-streaming reference materias are listed below
+## Flink-streaming reference materials are listed below
 
 * You can download the whole package and import it into IDEA to run the code
 
