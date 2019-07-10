@@ -1,4 +1,4 @@
-# flink-learning
+# Flink-learning
 * This is a maven project
 
 * You can download the whole package and import it into IDEA to run the code
@@ -12,3 +12,8 @@
 * Watermarks are in the dir of "/src/main/java/org/flink/learning/watermarks"
 
 * Some examples about working with state are in the dir of "/src/main/java/org/flink/learning/workingwithstate"
+
+## Some important advice on running program on the standalone flink cluster
+
+* You had better package the program **a fat jar**
+* When you are going to **manage the files in the HDFS**, you **had better not** include the hadoop-*.jar in the root classpath at every machine of the cluster. The best way is to add dependencies in the pom.xml
