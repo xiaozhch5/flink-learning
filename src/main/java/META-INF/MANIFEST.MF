@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: org.flink.learning.workingwithstate.Test
+Main-Class: org.flink.learning.streaming.workingwithstate.Test
 

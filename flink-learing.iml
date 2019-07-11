@@ -48,6 +48,7 @@
     <orderEntry type="library" name="Maven: org.apache.flink:flink-clients_2.11:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-optimizer_2.11:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-shaded-guava:18.0-6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.flink:flink-table-uber_2.12:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-connector-kafka_2.12:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-connector-kafka-base_2.12:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:2.0.1" level="project" />
@@ -251,6 +252,7 @@
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-yarn-common:2.7.6" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-client:1.9" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-jobclient:2.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.flink:flink-cep_2.12:1.8.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: log4j:log4j:1.2.17" level="project" />
   </component>

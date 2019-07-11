@@ -67,6 +67,12 @@ under the License.
 			<scope>provided</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-table-uber_2.12</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.apache.flink/flink-connector-kafka -->
 		<dependency>
 			<groupId>org.apache.flink</groupId>
@@ -117,6 +123,12 @@ under the License.
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-client</artifactId>
 			<version>2.7.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-cep_2.12</artifactId>
+			<version>1.8.0</version>
 		</dependency>
 
 		<!-- Add connector dependencies here. They must be in the default scope (compile). -->
@@ -196,7 +208,7 @@ under the License.
 							</filters>
 							<transformers>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>org.flink.learning.checkpoint.Test</mainClass>
+									<mainClass>org.flink.learning.streaming.checkpoint.Test</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
@@ -277,6 +289,14 @@ under the License.
 					<version>${flink.version}</version>
 					<scope>compile</scope>
 				</dependency>
+
+				<dependency>
+					<groupId>org.apache.flink</groupId>
+					<artifactId>flink-table-uber_2.12</artifactId>
+					<version>1.8.0</version>
+					<scope>compile</scope>
+				</dependency>
+
 			</dependencies>
 		</profile>
 	</profiles>
