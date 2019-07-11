@@ -6,7 +6,7 @@
 <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-connector-kafka -->
 <dependency>
     <groupId>org.apache.flink</groupId>
-    <artifactId>flink-connector-kafka_2.12</artifactId>
+    <artifactId>flink-connector-kafka_2.11</artifactId>
     <version>1.8.0</version>
 </dependency>
 ```
@@ -35,7 +35,7 @@ Two of the examples are listed below
 <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-jdbc -->
 <dependency>
     <groupId>org.apache.flink</groupId>
-    <artifactId>flink-jdbc_2.12</artifactId>
+    <artifactId>flink-jdbc_2.11</artifactId>
     <version>1.8.0</version>
 </dependency>
 

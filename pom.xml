@@ -69,14 +69,14 @@ under the License.
 
 		<dependency>
 			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-table-uber_2.12</artifactId>
+			<artifactId>flink-table-uber_2.11</artifactId>
 			<version>1.8.0</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.flink/flink-connector-kafka -->
 		<dependency>
 			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-connector-kafka_2.12</artifactId>
+			<artifactId>flink-connector-kafka_2.11</artifactId>
 			<version>1.8.0</version>
 		</dependency>
 
@@ -90,7 +90,7 @@ under the License.
 <!--		&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.flink/flink-jdbc &ndash;&gt;-->
 		<dependency>
 			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-jdbc_2.12</artifactId>
+			<artifactId>flink-jdbc_2.11</artifactId>
 			<version>1.8.0</version>
 		</dependency>
 
@@ -127,9 +127,17 @@ under the License.
 
 		<dependency>
 			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-cep_2.12</artifactId>
+			<artifactId>flink-cep_2.11</artifactId>
 			<version>1.8.0</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.flink/flink-ml -->
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-ml_2.11</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+
 
 		<!-- Add connector dependencies here. They must be in the default scope (compile). -->
 
@@ -292,7 +300,7 @@ under the License.
 
 				<dependency>
 					<groupId>org.apache.flink</groupId>
-					<artifactId>flink-table-uber_2.12</artifactId>
+					<artifactId>flink-table-uber_2.11</artifactId>
 					<version>1.8.0</version>
 					<scope>compile</scope>
 				</dependency>
