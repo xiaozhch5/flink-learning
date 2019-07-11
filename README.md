@@ -15,7 +15,7 @@
 
 * Some examples about working with state are in the dir of "/src/main/java/org/flink/learning/streaming/workingwithstate"
 
-## Some important advice on running program on the standalone flink cluster
+## Some important advices on running program on the standalone flink cluster
 
-* You had better package the program **a fat jar**
+* You had better package the program to **a fat jar**
 * When you are going to **manage the files in the HDFS**, you **had better not** include the hadoop-*.jar in the root classpath at every machine of the cluster. The best way is to add dependencies in the pom.xml
