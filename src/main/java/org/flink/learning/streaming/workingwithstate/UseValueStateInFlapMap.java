@@ -25,15 +25,17 @@ import java.util.List;
 public class UseValueStateInFlapMap {
     public static void main(String[] args) throws Exception{
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+        env.setParallelism(1);
         List<Tuple2<Long, Long>> input = new ArrayList<>();
         input.add(new Tuple2<>(1L, 3L));
         input.add(new Tuple2<>(1L, 5L));
         input.add(new Tuple2<>(1L, 7L));
-        input.add(new Tuple2<>(1L, 4L));
         input.add(new Tuple2<>(1L, 2L));
+        input.add(new Tuple2<>(1L, 4L));
         DataStream<Tuple2<Long, Long>> dataStream = env.fromCollection(input);
 
         dataStream.keyBy(0).flatMap(new RichFlatMapFunction<Tuple2<Long, Long>, Tuple2<Long, Long>>() {
+            // 初始化状态存储
             private transient ValueState<Tuple2<Long, Long>> sum;
 
             @Override
