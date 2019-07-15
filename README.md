@@ -5,15 +5,15 @@
 
 * You can download the whole package and import it into IDEA to run the code
 
-* Flink-connectors are in the dir of "/src/main/java/org/flink/learning/streaming/connectors"
+* Flink-connectors are in the dir of "[/src/main/java/org/flink/learning/streaming/connectors](https://github.com/xiaozhch5/flink-learning/tree/master/src/main/java/org/flink/learning/streaming/connectors)"
 
-* Some examples are in the dir of "/src/main/java/org/flink/learning/streaming/examples"
+* Some examples are in the dir of "[/src/main/java/org/flink/learning/streaming/examples](https://github.com/xiaozhch5/flink-learning/tree/master/src/main/java/org/flink/learning/streaming/examples)"
 
-* Transformations are in the dir of "/src/main/java/org/flink/learning/streaming/transformation"
+* Transformations are in the dir of "[/src/main/java/org/flink/learning/streaming/transformation](https://github.com/xiaozhch5/flink-learning/tree/master/src/main/java/org/flink/learning/streaming/transformation)"
 
-* Watermarks are in the dir of "/src/main/java/org/flink/learning/streaming/watermarks"
+* Watermarks are in the dir of "[/src/main/java/org/flink/learning/streaming/watermarks](https://github.com/xiaozhch5/flink-learning/tree/master/src/main/java/org/flink/learning/streaming/watermarks)"
 
-* Some examples about working with state are in the dir of "/src/main/java/org/flink/learning/streaming/workingwithstate"
+* Some examples about working with state are in the dir of "[/src/main/java/org/flink/learning/streaming/workingwithstate](https://github.com/xiaozhch5/flink-learning/tree/master/src/main/java/org/flink/learning/streaming/workingwithstate)"
 
 ## Some important advices on running program on the standalone flink cluster
 
