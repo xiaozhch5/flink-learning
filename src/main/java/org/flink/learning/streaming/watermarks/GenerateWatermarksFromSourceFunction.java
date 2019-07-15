@@ -5,6 +5,8 @@ import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 import org.apache.flink.streaming.api.watermark.Watermark;
+import org.apache.log4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +20,8 @@ import java.util.List;
  **/
  
 public class GenerateWatermarksFromSourceFunction {
-        public static void main(String[] args) throws Exception{
+    static Logger log = Logger.getLogger(GenerateWatermarksFromSourceFunction.class);
+    public static void main(String[] args) throws Exception{
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         // 在数据源中定义watermarks
         List<Tuple3<String, Long, Integer>> input = new ArrayList<>();
@@ -44,6 +47,7 @@ public class GenerateWatermarksFromSourceFunction {
         });
 
         dataStream.print();
+        log.info("This is logger info");
         env.execute();
     }
 }
