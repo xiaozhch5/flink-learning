@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0f4311-575d-44e4-9e3c-005772fc4449" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/MyFlatMapFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems_and_solutions_encountered_in_running_flink/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/WordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,12 +43,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
+            <state split_layout="FIRST">
               <first_editor relative-caret-position="57">
-                <caret line="3" column="111" selection-start-line="3" selection-start-column="111" selection-end-line="3" selection-end-column="111" />
+                <caret line="3" column="184" selection-start-line="3" selection-start-column="184" selection-end-line="3" selection-end-column="184" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="456">
+                <caret line="24" column="218" selection-start-line="24" selection-start-column="218" selection-end-line="24" selection-end-column="218" />
               </first_editor>
               <second_editor />
             </state>
@@ -89,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/examples/HotItems.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/connectors/TaxiFare.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/connectors/HotItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/connectors/TaxiRideSourceFromHive.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/examples/TimestampExtractor.java" />
@@ -133,13 +140,15 @@
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/watermarks/GenerateWatermarksFromSourceFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/UseValueStateInFlapMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/SourceFromMysql.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/Test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/MyFlatMapFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/WordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md" />
+        <option value="$PROJECT_DIR$/Problems_encountered_in_flink/README.md" />
+        <option value="$PROJECT_DIR$/Problems_and_solutions_encountered_in_running_flink/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -189,51 +198,7 @@
             <path>
               <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="workingwithstate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Problems_and_solutions_encountered_in_running_flink" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -387,7 +352,7 @@
       <workItem from="1562834015099" duration="2289000" />
       <workItem from="1563163941713" duration="10274000" />
       <workItem from="1563188442715" duration="8200000" />
-      <workItem from="1563245256405" duration="7559000" />
+      <workItem from="1563245256405" duration="8400000" />
     </task>
     <task id="LOCAL-00001" summary="delete some useless files">
       <created>1562233473115</created>
@@ -557,11 +522,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563196615928</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add an example of workingwithstate">
+      <created>1563262789295</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1563262789295</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add an example of workingwithstate">
+      <created>1563262890149</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563262890149</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134056000" />
+    <option name="totallyTimeSpent" value="134897000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,10 +681,10 @@
     <MESSAGE value="config the logs" />
     <MESSAGE value="add an example of flink state" />
     <MESSAGE value="update the README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the README.md" />
+    <MESSAGE value="Add an example of workingwithstate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add an example of workingwithstate" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/AggregationsTransformation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/UnionTransformation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/watermarks/UsePeriodicTimestampAssignerToDefineWatermarks.java" />
@@ -22834,16 +22813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="19" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/connectors/HotItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -22930,11 +22899,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md">
+    <entry file="file://$PROJECT_DIR$/Problems_and_solutions_encountered_in_running_flink/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="53" selection-start-column="53" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
           <first_editor relative-caret-position="57">
-            <caret line="3" column="111" selection-start-line="3" selection-start-column="111" selection-end-line="3" selection-end-column="111" />
+            <caret line="3" column="184" selection-start-line="3" selection-start-column="184" selection-end-line="3" selection-end-column="184" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="456">
+            <caret line="24" column="218" selection-start-line="24" selection-start-column="218" selection-end-line="24" selection-end-column="218" />
           </first_editor>
           <second_editor />
         </state>

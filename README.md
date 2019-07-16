@@ -20,3 +20,6 @@
 * You had better package the program to **a fat jar**
 * When you are going to **manage the files in the HDFS**, you **had better not** include the hadoop-*.jar in the classpath at every machine of the cluster. The best way is to add dependencies in the pom.xml
 * When you add the dependence to the pom.xml, please double check the corresponding scala version. They should be the same.
+
+## Some problems and solutions encountered in running flink 
+* The problems and solutions are stored in the dirs of [Problems_and_solutions_encountered_in_running_flink](/https://github.com/xiaozhch5/flink-learning/tree/master/Problems_and_solutions_encountered_in_running_flink/).
