@@ -22,4 +22,4 @@
 * When you add the dependence to the pom.xml, please double check the corresponding scala version. They should be the same.
 
 ## Some problems and solutions encountered in running flink 
-* The problems and solutions are stored in the dirs of [Problems_and_solutions_encountered_in_running_flink](/https://github.com/xiaozhch5/flink-learning/tree/master/Problems_and_solutions_encountered_in_running_flink/).
+* The problems and solutions are stored in the dirs of [Problems_and_solutions_encountered_in_running_flink](https://github.com/xiaozhch5/flink-learning/tree/master/Problems_and_solutions_encountered_in_running_flink).
