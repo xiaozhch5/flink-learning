@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0f4311-575d-44e4-9e3c-005772fc4449" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/MyFlatMapFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,48 +23,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/SourceFromMysql.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/UseValueStateInFlapMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2302#2539#0" expanded="true" />
-                <element signature="e#2538#2539#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2069#2109#0" expanded="true" />
-                <element signature="e#2143#2420#0" expanded="true" />
-                <element signature="e#2419#2420#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+            <state relative-caret-position="254">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/MyFlatMapFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,38 +47,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="361">
-                <caret line="19" selection-start-line="19" selection-end-line="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <first_editor relative-caret-position="57">
+                <caret line="3" column="111" selection-start-line="3" selection-start-column="111" selection-end-line="3" selection-end-column="111" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/connectors/HotItems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-149">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +79,8 @@
       <find>log</find>
       <find>slf</find>
       <find>this</find>
+      <find>savepoint</find>
+      <find>save</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/connectors/ReadFromMysql.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/examples/HotItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/connectors/TaxiFare.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/connectors/HotItems.java" />
@@ -176,15 +130,16 @@
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/ml/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/ml/MlExample.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/watermarks/GenerateWatermarksFromSourceFunction.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/UseValueStateInFlapMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/SourceFromMysql.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/MyFlatMapFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/WordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -212,15 +167,18 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="492" />
+    <option name="y" value="-13" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,24 +229,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
               <item name="streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="connectors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
               <item name="workingwithstate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -298,8 +239,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,19 +304,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsePeriodicTimestampAssignerToDefineWatermarks (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.flink.learning.streaming.watermarks.UsePeriodicTimestampAssignerToDefineWatermarks" />
-      <module name="flink-learing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.flink.learning.streaming.watermarks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UseValueStateInFlapMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.flink.learning.streaming.workingwithstate.UseValueStateInFlapMap" />
       <module name="flink-learing" />
@@ -404,13 +330,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.flink.learning.streaming.workingwithstate in flink-learing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flink-learing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.flink.learning.streaming.workingwithstate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.flink.learning.streaming.workingwithstate" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WordCount" />
+        <item itemvalue="JUnit.org.flink.learning.streaming.workingwithstate in flink-learing" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.UseValueStateInFlapMap" />
         <item itemvalue="Application.GenerateWatermarksFromSourceFunction" />
-        <item itemvalue="Application.UsePeriodicTimestampAssignerToDefineWatermarks (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +386,8 @@
       <workItem from="1562810768784" duration="16933000" />
       <workItem from="1562834015099" duration="2289000" />
       <workItem from="1563163941713" duration="10274000" />
-      <workItem from="1563188442715" duration="7208000" />
+      <workItem from="1563188442715" duration="8200000" />
+      <workItem from="1563245256405" duration="7559000" />
     </task>
     <task id="LOCAL-00001" summary="delete some useless files">
       <created>1562233473115</created>
@@ -609,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563196164791</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update the README.md">
+      <created>1563196615928</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1563196615928</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125505000" />
+    <option name="totallyTimeSpent" value="134056000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,7 +576,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21045576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -638,7 +586,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960223" weight="0.37818697" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.388102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32874617" />
@@ -753,12 +701,10 @@
     <MESSAGE value="Change the README.md file" />
     <MESSAGE value="config the logs" />
     <MESSAGE value="add an example of flink state" />
-    <option name="LAST_COMMIT_MESSAGE" value="add an example of flink state" />
+    <MESSAGE value="update the README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the README.md" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/KeyByTransformation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/MapTransformation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/ReduceTransformation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/AggregationsTransformation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/UnionTransformation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/transformation/README.md" />
@@ -22847,20 +22793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/watermarks/UsePeriodicTimestampAssignerToDefineWatermarks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -22902,10 +22834,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/SourceFromMysql.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="361">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/connectors/HotItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="19">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -22921,26 +22877,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/connectors/HotItems.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/SourceFromMysql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="361">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/CrunchifyTest.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8721" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/logfile.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9462">
+          <caret line="513" column="114" lean-forward="true" selection-start-line="513" selection-start-column="10" selection-end-line="513" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/MyFlatMapFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="78">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2069#2109#0" expanded="true" />
-            <element signature="e#2143#2420#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -22948,28 +22933,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/flink/learning/streaming/workingwithstate/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="111" selection-start-line="3" selection-start-column="111" selection-end-line="3" selection-end-column="111" />
           </first_editor>
           <second_editor />
         </state>
